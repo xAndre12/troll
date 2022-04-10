@@ -1,0 +1,36 @@
+body{
+    background-image:url(/img/wp6956942-flappy-bird-wallpapers.png);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    font-size: 40px;
+    color:rgb(255, 0, 0);
+    background-color: blue;
+    margin: auto;
+    text-align: center;
+    cursor:pointer;
+    z-index: 99;
+}
+img{
+    background: transparent;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: -99;
+    
+}
+.ascunde{
+    visibility: hidden;
+}
+.arata{
+    visibility: visible;
+}
